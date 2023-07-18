@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 10
+    },
+    "auditLog": "logs/.0eab38c73dcee466925a1d3213469c80fce9367f-audit.json",
+    "files": [
+        {
+            "date": 1689671698083,
+            "name": "logs/quickshop-log-2023-07-18.log",
+            "hash": "63354847dac2d3f0eaf40926105d00cc7f91751f5127a90727dda29411858e36"
+        }
+    ],
+    "hashType": "sha256"
+}

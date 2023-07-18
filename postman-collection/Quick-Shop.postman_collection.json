@@ -1,0 +1,403 @@
+{
+	"info": {
+		"_postman_id": "fa2dd69f-96ea-425a-a9e3-bf9fd7815e5b",
+		"name": "Quick-Shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9839389",
+		"_collection_link": "https://node-explorations.postman.co/workspace/Node-Explorations~1572349a-fb29-4af6-9789-48290b5c61c5/collection/9839389-fa2dd69f-96ea-425a-a9e3-bf9fd7815e5b?action=share&creator=9839389&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "GetCustomerById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/customer?customerId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"customer"
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetActiveCustomers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/customer/active",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"customer",
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllCustomers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/customer/all",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"customer",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrderById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/order?orderId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"order"
+					],
+					"query": [
+						{
+							"key": "orderId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllOrders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/order/all",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"order",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetActiveOrders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/order/active",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"order",
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllOrdersForProduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/order/product?productId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"order",
+						"product"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetActiveOrdersForProduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/order/active/product?productId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"order",
+						"active",
+						"product"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllOrdersForCustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/order/customer?customerId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"order",
+						"customer"
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetActiveOrdersForCustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/order/active/customer?customerId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"order",
+						"active",
+						"customer"
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrderByOrderId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/order/order-id?orderId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"order",
+						"order-id"
+					],
+					"query": [
+						{
+							"key": "orderId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProductCategoryById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/product-category?categoryId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"product-category"
+					],
+					"query": [
+						{
+							"key": "categoryId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllProductCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/product-category/all",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"product-category",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetActiveProductCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/product-category/active",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"product-category",
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProductById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/product?productId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"product"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/product/all",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"product",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetActiveProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/product/active",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"product",
+						"active"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
