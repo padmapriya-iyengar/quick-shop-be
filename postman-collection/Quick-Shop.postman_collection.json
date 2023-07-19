@@ -398,6 +398,96 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "LoadOrderReport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/report/order?xAxis=YEAR&yAxis=COUNT",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"report",
+						"order"
+					],
+					"query": [
+						{
+							"key": "xAxis",
+							"value": "YEAR"
+						},
+						{
+							"key": "yAxis",
+							"value": "COUNT"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoadCustomerReport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/report/customer?xAxis=YEAR&yAxis=COUNT",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"report",
+						"customer"
+					],
+					"query": [
+						{
+							"key": "xAxis",
+							"value": "YEAR"
+						},
+						{
+							"key": "yAxis",
+							"value": "COUNT"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoadProductReport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/quickshop/report/product?xAxis=YEAR&yAxis=COUNT",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"quickshop",
+						"report",
+						"product"
+					],
+					"query": [
+						{
+							"key": "xAxis",
+							"value": "YEAR"
+						},
+						{
+							"key": "yAxis",
+							"value": "COUNT"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
