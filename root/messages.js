@@ -1,3 +1,6 @@
+/**
+ * alerts object for static application messages
+ */
 const alerts = {
     ENTITY_CREATION_SUCCESS: " created successfully!!",
     ENTITY_UPDATION_SUCCESS: " updated successfully!!",

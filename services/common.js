@@ -2,23 +2,26 @@ const connection = require('../root/db_connect')
 const logger = require('../root/logger')
 const message = require('../root/messages')
 
-//Creating customer table
 const dbCustomer = require('../entities/customer')
 const customer = dbCustomer(connection)
+/**
+ * customer table creation
+ */
 customer.sync({alter: true}).then(() => {
     logger.info(message.alerts.CUSTOMER_TABLE_CREATION_SUCCESS)
 }).catch((err) => setImmediate(() => {logger.error(message.alerts.CUSTOMER_TABLE_CREATION_FAILURE)}))
 
-//Creating product category table
 const dbProductCategory = require('../entities/product_category')
 const productCategory = dbProductCategory(connection)
 const dbProduct = require('../entities/product')
 const product = dbProduct(connection)
 const dbOrder = require('../entities/order')
 const order = dbOrder(connection)
+/**
+ * product category table creation
+ */
 productCategory.sync({alter: true}).then(() => {
     logger.info(message.alerts.PRODUCT_TABLE_CREATION_SUCCESS)
-    //Creating product table
     product.belongsTo(productCategory, {
         foreignKey: {
           allowNull: false,
@@ -33,9 +36,11 @@ productCategory.sync({alter: true}).then(() => {
         },
         sourceKey: 'Category'
     })
+    /** 
+     * product table creation
+    */
     product.sync({alter: true}).then(() => {
         logger.info(message.alerts.PRODUCT_TABLE_CREATION_SUCCESS)
-        //Creating order table
         order.belongsTo(customer, {
             foreignKey: {
               allowNull: false,
@@ -64,6 +69,9 @@ productCategory.sync({alter: true}).then(() => {
             },
             sourceKey: 'Name'
         })
+        /**
+         * order table creation
+         */
         order.sync({alter: true}).then(() => {
             logger.info(message.alerts.ORDER_TABLE_CREATION_SUCCESS)
         }).catch((err) => setImmediate(() => {logger.error(message.alerts.ORDER_TABLE_CREATION_FAILURE)}))

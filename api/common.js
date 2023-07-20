@@ -1,3 +1,7 @@
+/**
+ * root router
+ */
+
 const express = require('express')
 const quickshop = express.Router()
 

@@ -14,6 +14,11 @@
             "date": 1689710815309,
             "name": "logs/quickshop-log-2023-07-19.log",
             "hash": "2f90093aaa1b38f3b89772c99d5a276da07ab9364e5c4f9dc15ad8086ddae729"
+        },
+        {
+            "date": 1689799677775,
+            "name": "logs/quickshop-log-2023-07-20.log",
+            "hash": "57e823c7d8204c192a85a1521476bdb6576361b63410849935daf81fd45d910f"
         }
     ],
     "hashType": "sha256"

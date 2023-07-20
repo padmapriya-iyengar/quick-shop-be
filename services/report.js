@@ -1,5 +1,12 @@
 const connection = require('../root/db_connect')
 
+/**
+ * load all order data for visualization
+ * @param {string} xAxis xAxis attribute for order data
+ * @param {string} yAxis yAxis attribute for order data
+ * @async
+ * @returns {order} order objects
+ */
 const loadOrders = async(reqParams) => {
     let queryString = ''
     if(reqParams.xAxis == 'YEAR' && reqParams.yAxis == 'COUNT'){
@@ -35,6 +42,13 @@ const loadOrders = async(reqParams) => {
     return await connection.query(queryString,{type: connection.QueryTypes.SELECT})
 }
 
+/**
+ * load all customer data for visualization
+ * @param {string} xAxis xAxis attribute for customer data
+ * @param {string} yAxis yAxis attribute for customer data
+ * @async
+ * @returns {customer} customer objects
+ */
 const loadCustomers = async(reqParams) => {
     let queryString = ''
     if(reqParams.xAxis == 'YEAR' && reqParams.yAxis == 'COUNT'){
@@ -49,6 +63,13 @@ const loadCustomers = async(reqParams) => {
     return await connection.query(queryString,{type: connection.QueryTypes.SELECT})
 }
 
+/**
+ * load all product data for visualization
+ * @param {string} xAxis xAxis attribute for product data
+ * @param {string} yAxis yAxis attribute for product data
+ * @async
+ * @returns {product} product objects
+ */
 const loadProducts = async(reqParams) => {
     let queryString = ''
     if(reqParams.xAxis == 'YEAR' && reqParams.yAxis == 'COUNT'){
