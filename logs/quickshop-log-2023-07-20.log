@@ -1238,3 +1238,15 @@
 2023-07-20T16:33:30.846Z [32minfo[39m: 	Quickshop Order table created successfully!!
 2023-07-20T19:02:57.147Z [32minfo[39m: 	Type: GET -- Request: {"xAxis":"YEAR","yAxis":"COUNT"} -- URL: http://localhost:3030/quickshop/report/order?xAxis=YEAR&yAxis=COUNT -- Status: 304 -- Response Time: 47.014 ms
 
+2023-07-20T19:28:25.825Z [32minfo[39m: 	DB Connection has been established successfully.
+2023-07-20T19:28:25.828Z [32minfo[39m: 	Listening to port 3030
+2023-07-20T19:28:25.935Z [32minfo[39m: 	Quickshop Product table created successfully!!
+2023-07-20T19:28:26.034Z [32minfo[39m: 	Quickshop Customer table created successfully!!
+2023-07-20T19:28:26.091Z [32minfo[39m: 	Quickshop Product table created successfully!!
+2023-07-20T19:28:26.192Z [32minfo[39m: 	Quickshop Order table created successfully!!
+2023-07-20T19:29:12.211Z [32minfo[39m: 	DB Connection has been established successfully.
+2023-07-20T19:29:12.215Z [32minfo[39m: 	Listening to port 3030
+2023-07-20T19:29:12.273Z [32minfo[39m: 	Quickshop Product table created successfully!!
+2023-07-20T19:29:12.369Z [32minfo[39m: 	Quickshop Customer table created successfully!!
+2023-07-20T19:29:12.418Z [32minfo[39m: 	Quickshop Product table created successfully!!
+2023-07-20T19:29:12.531Z [32minfo[39m: 	Quickshop Order table created successfully!!
