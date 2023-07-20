@@ -1,3 +1,7 @@
+/**
+ * sequelize-db connection
+ */
+
 const Sequelize = require('sequelize')
 const configuration = require('../config/config')
 

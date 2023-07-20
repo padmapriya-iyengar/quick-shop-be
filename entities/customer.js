@@ -1,5 +1,23 @@
 const { DataTypes } = require('sequelize')
 
+/**
+ * Customer
+ * @typedef {object} customer
+ * @property {number} Id.required
+ * @property {string} Title
+ * @property {string} FirstName.required
+ * @property {string} MiddleName
+ * @property {string} LastName
+ * @property {string} DisplayName.unique
+ * @property {string} Email
+ * @property {string} Contact
+ * @property {number} Status.required
+ * @property {date} CreatedOn
+ * @property {string} CreatedBy
+ * @property {date} UpdatedOn
+ * @property {string} UpdatedBy
+ */
+
 module.exports = function(sequelize){
     let customer = sequelize.define("customer", {
         Id: {

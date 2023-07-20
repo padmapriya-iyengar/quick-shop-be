@@ -1,5 +1,18 @@
 const { DataTypes } = require('sequelize')
 
+/**
+ * Product
+ * @typedef {object} product
+ * @property {number} Id.required
+ * @property {string} Name.required
+ * @property {decimal} Price.required
+ * @property {number} Status.required
+ * @property {date} CreatedOn
+ * @property {string} CreatedBy
+ * @property {date} UpdatedOn
+ * @property {string} UpdatedBy
+ */
+
 module.exports = function(sequelize){
     let product = sequelize.define("product", {
         Id: {
@@ -9,7 +22,7 @@ module.exports = function(sequelize){
             allowNull: false
         },
         Name: {
-            type: DataTypes.STRING(10),
+            type: DataTypes.STRING(100),
             allowNull: false,
             unique: 'UNIQUE'
         },

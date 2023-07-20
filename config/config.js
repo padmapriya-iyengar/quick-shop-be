@@ -1,3 +1,6 @@
+/**
+ * configuration object
+ */
 const configuration = {
     express_port: 3030,
     header_options:{

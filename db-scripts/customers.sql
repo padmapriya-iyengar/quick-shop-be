@@ -1,0 +1,16 @@
+/*
+-- Query: SELECT * FROM quickshop_db.customers
+LIMIT 0, 1000
+
+-- Date: 2023-07-20 13:24
+*/
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (1,'Mr','Oliver','Wilson','Brown','O Brown','oliver.brown@mailinator.com','111111111',1,'2023-07-18 22:35:28','system','2023-07-18 22:35:28','system');
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (2,'Ms','Noah',NULL,'Walker','Noah','noah.walker@mailinator.com','222222222',1,'2023-06-18 22:35:28','system','2023-06-18 22:35:28','system');
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (3,'Mr','Oscar','Burton','Johnson','Oscar','oscar.johnson@mailinator.com','333333333',1,'2023-05-18 22:35:28','system','2023-05-18 22:35:28','system');
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (4,'Ms','Mia',NULL,'Cole','M Cole','mia.cole@mailinator.com','444444444',1,'2023-04-18 22:35:28','system','2023-04-18 22:35:28','system');
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (5,'Ms','Grace','Robets','Ball','Grace Ball','grace.ball@mailinator.com','555555555',1,'2022-07-18 22:35:28','system','2022-07-18 22:35:28','system');
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (6,'Ms','Daisy',NULL,'Wilson','Daisy','daisy.wilson@mailinator.com','6666666666',1,'2022-06-18 22:35:28','system','2022-06-18 22:35:28','system');
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (7,'Mr','Theo',NULL,'Armstrong','Theo','theo.armstrong@mailinator.com','777777777',1,'2021-07-18 22:35:28','system','2021-07-18 22:35:28','system');
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (8,'Mr','Jacob','Johnson','Bailey','Jacob','jacob.bailey@mailinator.com','888888888',1,'2021-06-18 22:35:28','system','2021-06-18 22:35:28','system');
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (9,'Ms','Phoebe',NULL,'Thomas','Phoebe','phoebe.thomas@mailinator.com','999999999',1,'2021-05-18 22:35:28','system','2021-05-18 22:35:28','system');
+INSERT INTO `customers` (`Id`,`Title`,`FirstName`,`MiddleName`,`LastName`,`DisplayName`,`Email`,`Contact`,`Status`,`CreatedOn`,`CreatedBy`,`UpdatedOn`,`UpdatedBy`) VALUES (10,'Mr','Arlo',NULL,'Longley','Arlo','arlo.longley@mailinator.com','12222222',1,'2020-07-18 22:35:28','system','2020-07-18 22:35:28','system');
